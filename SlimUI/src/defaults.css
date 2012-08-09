@@ -1,0 +1,49 @@
+/* CSS file */
+@namespace s "library://ns.adobe.com/flex/spark";
+@namespace e "library://sporano/frameworks/slim";
+@namespace supportClasses "frameworks.slim.components.supportClasses.*";
+
+e|Button{
+	skinClass: ClassReference('frameworks.slim.skins.ButtonSkin');
+	color: #1c868c;
+	fontWeight: normal;
+	fontFamily: "Myriad Pro";
+}
+
+e|List{
+	skinClass: ClassReference('frameworks.slim.skins.ListSkin');
+}
+
+e|NumericLabel{
+	skinClass: ClassReference('frameworks.slim.skins.NumericLabelSkin');
+	color: #ffffff;
+}
+
+e|TextInput{
+	skinClass: ClassReference('frameworks.slim.skins.TextInputSkin');
+	focusSkin: ClassReference(null);
+	
+	fontSize: 24;
+	fontFamily: "Myriad Pro";
+	fontWeight: normal;
+	color: #6dcff6;
+}
+
+e|HSlider{
+	skinClass: ClassReference("frameworks.slim.skins.HSliderSkin");
+}
+
+e|CircularButton{
+	skinClass: ClassReference("frameworks.slim.skins.CircularButtonSkin");
+}
+
+e|Switch{
+	skinClass: ClassReference("frameworks.slim.skins.SwitchSkin");
+}
+
+
+/* Support Classes */
+
+supportClasses|HSliderHighlight{
+	skinClass: ClassReference("frameworks.slim.skins.HSliderHighlightSkin");
+}

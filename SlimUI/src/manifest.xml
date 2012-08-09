@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<!-- Slim UI 2.0 -->
+
+<componentPackage>
+	<!--  Essentials -->
+	<component id="Button" class="frameworks.slim.components.Button"/>
+    <component id="List" class="frameworks.slim.components.List"/>
+    <component id="TextInput" class="frameworks.slim.components.TextInput"/>
+    <component id="HSlider" class="frameworks.slim.components.HSlider"/>
+    <component id="CircularButton" class="frameworks.slim.components.CircularButton"/>
+    
+    <!--  Activity -->
+    <component id="Activity" class="frameworks.slim.activity.Activity"/>
+    <component id="ActivityDeck" class="frameworks.slim.activity.ActivityDeck"/>
+    <component id="SlideDeck" class="frameworks.slim.activity.SlideDeck"/>
+    
+    <!--  Additional  -->
+    <component id="NumericLabel" class="frameworks.slim.components.NumericLabel"/>
+    <component id="Switch" class="frameworks.slim.components.Switch"/>
+    
+</componentPackage>
