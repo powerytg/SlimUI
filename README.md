@@ -17,3 +17,9 @@ For info of Soprano, see here:
 https://github.com/powerytg/Soprano
 
 
+Screenshots:
+
+![Alt text](/screenshots/1.jpg "example")
+![Alt text](/screenshots/2.jpg "example")
+![Alt text](/screenshots/3.png "example")
+![Alt text](/screenshots/4.png "example")
